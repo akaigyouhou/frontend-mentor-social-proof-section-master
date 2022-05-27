@@ -1,0 +1,23 @@
+section {
+    display: flex;
+    flex-direction: column;
+    /* height: 400px; */
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-bottom: 83.7px;
+}
+
+@media (min-width: 1200px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        /* padding: 20px; */
+        margin: 0;
+        margin-left: 164px;
+        margin-right: 164px;
+        height: 350px;
+        padding-top: 49px;
+        padding-bottom: 66px;
+    }
+}
+

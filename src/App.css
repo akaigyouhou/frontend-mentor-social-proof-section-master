@@ -1,38 +1,51 @@
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "LeagueSpartan";
+    padding-top: 75px;
+    /* padding-left: 23px;
+    padding-right: 23px; */
+    /* opacity: 0; */
+    background-image: url("./image/bg-pattern-top-mobile.svg"), url("./image/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width: 1200px) {
+    .App {
+        /* opacity: 0.5; */
+        height: 100vh;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        background-image: url("./image/bg-pattern-top-desktop.svg"), url("./image/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0, 100% 100%;
+    }
+
+    .App > div {
+        display: flex;
+        margin-left: 120px;
+        margin-right: 120px;
+        height: 350px;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+@font-face {
+    font-family: "LeagueSpartan";
+    font-weight: 400;
+    src: url("./fonts/LeagueSpartan-Regular.ttf") format("truetype");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: "LeagueSpartan";
+    font-weight: 500;
+    src: url("./fonts/LeagueSpartan-Medium.ttf") format("truetype");
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+    font-family: "LeagueSpartan";
+    font-weight: 700;
+    src: url("./fonts/LeagueSpartan-Bold.ttf") format("truetype");
 }
