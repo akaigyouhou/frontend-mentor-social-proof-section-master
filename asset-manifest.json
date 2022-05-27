@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0077f1ee.css",
-    "main.js": "/static/js/main.c45de07a.js",
-    "static/media/LeagueSpartan-Bold.ttf": "/static/media/LeagueSpartan-Bold.50c244d95189aa757ba9.ttf",
-    "static/media/LeagueSpartan-Medium.ttf": "/static/media/LeagueSpartan-Medium.866e1b0f9e6f44fa8cd4.ttf",
-    "static/media/LeagueSpartan-Regular.ttf": "/static/media/LeagueSpartan-Regular.e758e6ece0eedd1df1f0.ttf",
-    "static/media/bg-pattern-bottom-desktop.svg": "/static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc.svg",
-    "static/media/bg-pattern-bottom-mobile.svg": "/static/media/bg-pattern-bottom-mobile.593835ec67fd27ee2a62.svg",
-    "static/media/bg-pattern-top-desktop.svg": "/static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e6.svg",
-    "static/media/bg-pattern-top-mobile.svg": "/static/media/bg-pattern-top-mobile.58eed600d32e18ece9dc.svg",
-    "index.html": "/index.html",
-    "static/media/icon-star.svg": "/static/media/icon-star.2d8e7b7cb342bc812e9df51d276eaa78.svg",
-    "main.0077f1ee.css.map": "/static/css/main.0077f1ee.css.map",
-    "main.c45de07a.js.map": "/static/js/main.c45de07a.js.map"
+    "main.css": "./static/css/main.4827f9a5.css",
+    "main.js": "./static/js/main.c752db18.js",
+    "static/media/LeagueSpartan-Bold.ttf": "./static/media/LeagueSpartan-Bold.50c244d95189aa757ba9.ttf",
+    "static/media/LeagueSpartan-Medium.ttf": "./static/media/LeagueSpartan-Medium.866e1b0f9e6f44fa8cd4.ttf",
+    "static/media/LeagueSpartan-Regular.ttf": "./static/media/LeagueSpartan-Regular.e758e6ece0eedd1df1f0.ttf",
+    "static/media/bg-pattern-bottom-desktop.svg": "./static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc.svg",
+    "static/media/bg-pattern-bottom-mobile.svg": "./static/media/bg-pattern-bottom-mobile.593835ec67fd27ee2a62.svg",
+    "static/media/bg-pattern-top-desktop.svg": "./static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e6.svg",
+    "static/media/bg-pattern-top-mobile.svg": "./static/media/bg-pattern-top-mobile.58eed600d32e18ece9dc.svg",
+    "index.html": "./index.html",
+    "static/media/icon-star.svg": "./static/media/icon-star.2d8e7b7cb342bc812e9df51d276eaa78.svg",
+    "main.4827f9a5.css.map": "./static/css/main.4827f9a5.css.map",
+    "main.c752db18.js.map": "./static/js/main.c752db18.js.map"
   },
   "entrypoints": [
-    "static/css/main.0077f1ee.css",
-    "static/js/main.c45de07a.js"
+    "static/css/main.4827f9a5.css",
+    "static/js/main.c752db18.js"
   ]
 }
